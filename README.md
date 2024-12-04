@@ -72,7 +72,9 @@
 ![image](https://github.com/user-attachments/assets/6f41a560-383d-4b83-bba9-959e313940f4)
 ![image](https://github.com/user-attachments/assets/8df8fca4-969f-41a3-95b6-1b7b29840926)
 ![image](https://github.com/user-attachments/assets/500eccf2-fb83-443f-bd0a-44943db226da)
-*Trang admin có thể xem danh sách thú cưng, thêm, xóa thú cưng, quản lí người dùng, xem danh sách đơn hàng*
+
+*Trang admin có thể xem danh sách thú cưng, thêm, xóa thú cưng, quản lí người dùng, xem danh sách đơn hàng.*
+
 ---
 
 ## 🖥️ Cách cài đặt và chạy dự án  
