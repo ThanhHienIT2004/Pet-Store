@@ -1,0 +1,19 @@
+.container-index-user-flex {
+    display: flex;
+    flex-direction: row;
+    padding: 3vb;
+    min-height: 80vh;
+}
+
+/* -----------------------------------khung cho nav-------------------------- */
+.cnt-col {
+    flex: 3;
+}
+
+
+/* -----------------------------------khung cho content-------------------------- */
+.content-col {
+    flex: 7;
+    justify-content: center;
+    align-items: center;
+}

@@ -1,0 +1,79 @@
+/* Styles for the Forgot Password Modal */
+.forgot-password-modal {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.5); /* Nền mờ */
+    z-index: 1000; /* Đảm bảo modal nằm trên cùng */
+    align-content: center;
+    text-align: -webkit-center;
+}
+
+.forgot-password-modal-content {
+    position: relative;
+    background-color: #fff; /* Màu nền của modal */
+    padding: 30px;
+    border: 1px solid #ddd; /* Đường viền modal nhẹ hơn */
+    width: 100%;
+    max-width: 300px; /* Chiều rộng tối đa lớn hơn */
+}
+
+.close {
+    position: absolute;
+    top: 10px; /* Căn chỉnh lại vị trí nút close */
+    right: 10px; /* Căn chỉnh lại vị trí nút close */
+    color: #333;
+    font-size: 24px; /* Kích thước nút close lớn hơn */
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.close:hover,
+.close:focus {
+    color: #e74c3c; /* Màu đỏ cho nút close khi hover */
+    text-decoration: none;
+}
+
+h2 {
+    margin-top: 0;
+    font-size: 22px; /* Kích thước tiêu đề lớn hơn */
+    color: #333; /* Màu sắc tiêu đề */
+}
+
+.form-group {
+    margin-bottom: 20px; /* Khoảng cách giữa các nhóm trường */
+}
+
+label {
+    display: block;
+    margin-bottom: 5px; /* Khoảng cách giữa nhãn và trường nhập */
+    font-size: 16px; /* Kích thước chữ của label */
+    color: #555; /* Màu sắc nhãn dễ nhìn hơn */
+}
+
+.forgot-password-modal input[type="email"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc; /* Đường viền nhạt hơn */
+    border-radius: 6px; /* Bo góc input rõ hơn */
+    font-size: 16px; /* Kích thước chữ trong input lớn hơn */
+}
+
+button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 6px;
+    background-color: #007bff;
+    color: #fff;
+    cursor: pointer;
+    font-size: 16px; /* Kích thước chữ trên nút lớn hơn */
+    transition: background-color 0.3s; /* Thêm hiệu ứng chuyển màu */
+}
+
+button:hover {
+    background-color: #0056b3; /* Màu nền nút khi hover */
+}

@@ -1,0 +1,116 @@
+/* Sắp xếp lưới cho sản phẩm */
+.pets-admin-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-auto-rows: 500px;
+    gap: 10px;
+}
+
+@media (max-width: 1300px) {
+    .pets-admin-grid {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+@media (max-width: 900px) {
+    .pets-admin-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 600px) {
+    .pets-admin-grid {
+        grid-template-columns: 1fr;
+    }
+}
+
+/* Kiểu dáng cho các phần tử container của sản phẩm */
+.container-pets-admin {
+    width: 90%;
+    position: relative;
+    text-align: center;
+    box-shadow: 0px 3px 10px 5px rgb(216, 217, 219);
+    padding: 10px;
+    background-color: rgb(225, 242, 252);
+    transition: transform 0.3s;
+}
+
+.scrollable-container {
+    max-height: 200px;
+    overflow-y: scroll;
+}
+
+.container-pets-admin>.img-pet {
+    width: 100%;
+    height: 45%;
+}
+
+/* Căn chỉnh nhãn và trường nhập liệu trong form chỉnh sửa */
+.row {
+    margin: 10px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.row label {
+    font-weight: bold;
+    margin-right: 10px;
+    font-size: 1rem;
+}
+
+.row input[type="text"],
+.row input[type="number"] {
+    flex: 1;
+    padding: 8px;
+    border: 1px solid #ddd;
+
+}
+.row input[type="radio"]:checked {
+    /* Ví dụ: thay đổi màu nền hoặc kiểu dáng của label */
+    background-color: #007bff; /* Thay đổi màu nền khi được chọn */
+    color: #fff; /* Thay đổi màu chữ */
+  }
+.row select.edit-gender {
+    width: 100%;
+    padding: 5px;
+
+    border: 1px solid #ccc;
+}
+.row textarea {
+    width: 70%; /* Chiều rộng bằng với các trường input */
+    padding: 10px;
+}
+
+/* Đảm bảo textarea không bị cắt bớt nội dung */
+textarea:focus {
+    outline: none; /* Loại bỏ viền focus mặc định */
+}
+
+/* Kiểu dáng cho các nút lưu và hủy */
+.save-btn-pets-admin,
+.cancel-btn {
+    width: 40%;
+    height: 30%;
+    margin: 10px;
+    padding: 5px;
+    background-color: #88ca88;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.save-btn-pets-admin:hover {
+    background-color: #537554;
+}
+
+.cancel-btn {
+    background-color: #f99; /* Ví dụ: Màu nền khác cho nút hủy */
+}
+
+.cancel-btn:hover {
+    background-color: #d66; /* Ví dụ: Màu nền khi di chuột qua cho nút hủy */
+}
+

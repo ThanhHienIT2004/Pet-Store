@@ -1,0 +1,17 @@
+.container-pets {
+    position: relative;
+    background-color: rgb(255, 249, 240);
+    /* Các quy tắc CSS khác */
+}
+
+.hot-logo {
+    position: absolute;
+    top: 0;
+    right: -5;
+    z-index: 10; /* Đảm bảo logo hiển thị trên các phần tử khác */
+}
+
+.hot-logo img {
+    width:100px; /* Điều chỉnh kích thước logo nếu cần */
+    height: auto;
+}

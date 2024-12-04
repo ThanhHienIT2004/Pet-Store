@@ -1,0 +1,49 @@
+
+.banner {
+    position: fixed;
+    top: 50px;
+    left: 5%;
+    width: 90%;
+    z-index: -1;
+    overflow: hidden;
+
+}
+.banner img {
+    width: 100%;
+    filter: blur(2px); /* Tạo hiệu ứng mờ cho ảnh */
+    transition: transform 0.2s ease-out; /* Hiệu ứng chuyển động mượt khi cuộn */
+}
+
+.text {
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+    font-size: 3.5rem;
+    background-color: rgba(255, 255, 255, 0.2);
+    font-weight: bold;
+    color: black;
+    padding: 20px;
+    text-align: center; /* Căn giữa văn bản và nút */
+    display: flex; /* Sử dụng flexbox để căn giữa */
+    flex-direction: column; /* Đặt các phần tử con theo chiều dọc */
+    align-items: center; /* Căn giữa các phần tử theo chiều ngang */
+}
+
+.buy-now {
+    font-family: Courier;
+    margin-top: 20px; /* Khoảng cách giữa văn bản và nút */
+    padding: 10px 20px; /* Padding cho nút */
+    font-size: 1.5rem; /* Kích thước chữ trên nút */
+    color: #fff;
+    background-color: #18004d; /* Màu nền của nút */
+    border: none;
+    cursor: pointer; /* Con trỏ chuột khi di chuột qua nút */
+    transition: background-color 0.3s; /* Hiệu ứng chuyển màu nền khi hover */
+}
+
+.buy-now:hover {
+    background-color: #ffffff; /* Màu nền của nút khi hover */
+    color: black;
+}

@@ -1,0 +1,127 @@
+/* Styles for the Register Modal */
+.register-modal {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.7); /* Darker background for emphasis */
+    z-index: 1000; /* Ensures modal is on top */
+}
+
+.register-modal-content {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); /* Center the modal */
+    background-color: #f9f9f9; /* Light background for better contrast */
+    padding: 30px;
+    border-radius: 10px; /* Smooth rounded corners */
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2); /* Subtle shadow for depth */
+    width: 100%;
+    max-width: 400px; /* Ensure it doesn't grow too large */
+    box-sizing: border-box;
+    text-align: center; /* Center align text */
+}
+
+.register-modal h2 {
+    margin-top: 0;
+    color: #333; /* Darker text for contrast */
+    font-size: 24px;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 10px;
+}
+
+.close {
+    position: absolute;
+    top: 10px;
+    right: 15px;
+    color: #888;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+.close:hover {
+    color: #e74c3c; /* Softer hover effect */
+}
+
+.register-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center align form items */
+    margin-top: 20px;
+    text-align: center; /* Center align text in form */
+}
+
+label {
+    margin: 10px 0 5px;
+    font-weight: bold;
+    color: #555;
+    text-align: center; /* Center align label */
+}
+
+.register-form input[type="text"],
+.register-form input[type="password"],
+.register-form input[type="email"] {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 16px;
+    box-sizing: border-box;
+}
+
+.register-form input[type="checkbox"] {
+    margin-right: 5px;
+}
+
+.button-container {
+    display: flex;
+    justify-content: space-between; /* Spread buttons */
+    width: 100%;
+    gap: 10px; /* Add spacing between buttons */
+}
+
+.register-form input[type="submit"],
+button {
+    flex: 1;
+    padding: 12px;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    width: 100%; /* Make buttons full width */
+}
+
+input[type="submit"]:hover,
+button:hover {
+    background-color: #0056b3; /* Darker hover effect */
+}
+
+.back-arrow {
+    cursor: pointer;
+    color: #007bff;
+    font-size: 20px;
+    font-weight: bold;
+    position: absolute;
+    top: 15px;
+    left: 10px;
+    text-decoration: none;
+}
+#error-message-register {
+    color: red;
+    margin-top: 15px;
+    font-size: 14px;
+    text-align: center; /* Đảm bảo thông báo lỗi được canh giữa */
+}
+
+.back-arrow:hover {
+    color: #0056b3; /* Hover effect for back arrow */
+}
