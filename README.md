@@ -30,9 +30,52 @@
   - MySQL  
 
 ---
+## 📷 Hình ảnh giao diện  
+
+### 1. Trang chủ  
+![image](https://github.com/user-attachments/assets/953dfb7c-0b90-4829-892c-f7005e762da5)
+![image](https://github.com/user-attachments/assets/96459709-a43d-44cd-929c-e570693b9742)
+![image](https://github.com/user-attachments/assets/2f3b0dbb-d654-4148-abf4-f087ff3992d1)
+![image](https://github.com/user-attachments/assets/51737525-ab4c-43d7-8064-b8c8cd4ea127)
+![image](https://github.com/user-attachments/assets/2cbac419-ecbc-4bbb-a8f9-f12cc4a0a8c7)
+![image](https://github.com/user-attachments/assets/2b91e2e0-84f9-42b4-8502-e685bf0b124f)
+
+
+
+
+*Giao diện chính với danh sách thú cưng nổi bật.*
+
+### 2. Trang danh mục sản phẩm  
+![Danh mục sản phẩm](./screenshots/product-list.png)  
+*Danh sách thú cưng theo danh mục (mèo, chó, vẹt).*
+
+### 3. Trang chi tiết sản phẩm  
+![image](https://github.com/user-attachments/assets/e271f503-3e09-49b2-a5dc-5277423626bc)
+*Hiển thị thông tin chi tiết về thú cưng (giống, giá, mô tả).*
+
+### 4. Giỏ hàng  
+![image](https://github.com/user-attachments/assets/33a97032-52db-4a61-9301-ff5ab89ed453)
+*Trang giỏ hàng, khi không có sản phẩm nào trong giỏ hàng.*
+![image](https://github.com/user-attachments/assets/c1a80308-efde-461f-afe8-08559383aede)
+*Trang giỏ hàng, hiển thị danh sách thú cưng đã thêm cùng tổng giá trị.*
+
+### 5. Trang đơn đặt hàng
+![image](https://github.com/user-attachments/assets/894d2565-a56e-45fe-bd47-5af5fb1521cb)
+*Trang đơn hàng, hiển thị đơn đặt hàng.*
+
+### 6. Trang thông tin người dùng 
+![image](https://github.com/user-attachments/assets/733419ce-8f0f-427d-b48a-bc4a066785a9)
+
+### 7. Trang admin
+![image](https://github.com/user-attachments/assets/037bd8de-9f2f-4be0-a0b6-8fa3db83a2c7)
+![image](https://github.com/user-attachments/assets/dd39cc8c-87a8-485a-960f-c385ecc316ff)
+![image](https://github.com/user-attachments/assets/6f41a560-383d-4b83-bba9-959e313940f4)
+![image](https://github.com/user-attachments/assets/8df8fca4-969f-41a3-95b6-1b7b29840926)
+![image](https://github.com/user-attachments/assets/500eccf2-fb83-443f-bd0a-44943db226da)
+
+---
 
 ## 🖥️ Cách cài đặt và chạy dự án  
-
 ### Yêu cầu:  
 - **XAMPP** hoặc máy chủ web bất kỳ hỗ trợ PHP và MySQL.  
 
